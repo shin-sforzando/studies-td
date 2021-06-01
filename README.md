@@ -27,7 +27,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 
 ## Works
 
-(T.B.D.)
+- 001: Flying Butterfly
 
 ## Ideas
 
@@ -44,13 +44,13 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Ambient Light COMP
 - [ ] Blend COMP
 - [ ] Bone COMP
-- [ ] Camera COMP
+- [x] Camera COMP
 - [ ] Camera Blend COMP
 - [ ] Environment Light COMP
 - [ ] Nvidia Flow Emitter COMP
-- [ ] Geometry COMP
+- [x] Geometry COMP
 - [ ] Handle COMP
-- [ ] Light COMP
+- [x] Light COMP
 - [ ] Null COMP
 - [ ] Shared Mem In COMP
 - [ ] Shared Mem Out COMP
@@ -59,7 +59,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 
 #### Panel Components (interactive 2D panels)
 
-- [ ] Button COMP
+- [x] Button COMP
 - [ ] Container COMP
 - [ ] Field COMP
 - [ ] List COMP
@@ -140,8 +140,8 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Matte
 - [ ] Mirror
 - [ ] Monochrome
-- [ ] Movie File In
-- [ ] Movie File Out
+- [x] Movie File In
+- [x] Movie File Out
 - [ ] Multiply
 - [ ] Ncam
 - [ ] NDI In
@@ -149,7 +149,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Noise
 - [ ] Normal Map
 - [ ] Notch
-- [ ] Null
+- [x] Null
 - [ ] Nvidia Background
 - [ ] Nvidia Denoise
 - [ ] Nvidia Flex
@@ -160,7 +160,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] OpenVR
 - [ ] Ouster Select
 - [ ] Ouster
-- [ ] Out
+- [x] Out
 - [ ] Outside
 - [ ] Over
 - [ ] Pack
@@ -176,7 +176,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Remap
 - [ ] Render Pass
 - [ ] Render Select
-- [ ] Render
+- [x] Render
 - [ ] Reorder
 - [ ] Resolution
 - [ ] RGB Key
@@ -253,7 +253,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Composite
 - [ ] Constant
 - [ ] Copy
-- [ ] Count
+- [x] Count
 - [ ] CPlusPlus
 - [ ] Cross
 - [ ] Cycle
@@ -283,7 +283,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Hold
 - [ ] Import Select
 - [ ] In
-- [ ] Info
+- [x] Info
 - [ ] Interpolate
 - [ ] Introduction To s Vid
 - [ ] Inverse Curve
@@ -298,13 +298,13 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Laser
 - [ ] Leap Motion
 - [ ] Leuze ROD4
-- [ ] LFO
+- [x] LFO
 - [ ] Limit
 - [ ] Logic
 - [ ] Lookup
 - [ ] LTC In
 - [ ] LTC Out
-- [ ] Math
+- [x] Math
 - [ ] Merge
 - [ ] MIDI In
 - [ ] MIDI In Map
@@ -314,7 +314,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] NatNet In
 - [ ] Ncam
 - [ ] Noise
-- [ ] Null
+- [x] Null
 - [ ] Object
 - [ ] Oculus Audio
 - [ ] Oculus Rift
@@ -481,15 +481,15 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Sweep
 - [ ] Switch
 - [ ] Text
-- [ ] Texture
+- [x] Texture
 - [ ] Torus
-- [ ] Trace
+- [x] Trace
 - [ ] Trail
 - [ ] Transform
 - [ ] Trim
 - [ ] Tristrip
 - [ ] Tube
-- [ ] Twist
+- [x] Twist
 - [ ] Vertex
 - [ ] Wireframe
 - [ ] ZED
@@ -507,7 +507,7 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Null
 - [ ] Out
 - [ ] PBR
-- [ ] Phong
+- [x] Phong
 - [ ] Point Sprite
 - [ ] Select
 - [ ] Switch
@@ -561,14 +561,14 @@ Some studies using [TouchDesigner](https://derivative.ca).
 - [ ] Render Pick
 - [ ] Reorder
 - [ ] Script
-- [ ] Select
+- [x] Select
 - [ ] Serial
 - [ ] SocketIO
 - [ ] SOP to
 - [ ] Sort
 - [ ] Substitute
 - [ ] Switch
-- [ ] Table
+- [x] Table
 - [ ] TCP/IP
 - [ ] Text
 - [ ] Touch In
