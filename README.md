@@ -1,13 +1,13 @@
 # studies-td
 
-![screenshot](https://user-images.githubusercontent.com/32637762/120210822-3025b980-c26b-11eb-84a8-c70f32d68479.png)
+![Flying Butterfly](https://user-images.githubusercontent.com/32637762/120374305-5d9a6200-c354-11eb-9e71-87c6e1599bd3.png)
 
 Some studies using [TouchDesigner](https://derivative.ca).
 
 - [Study Environments](#study-environments)
 - [Works](#works)
-- [Ideas](#ideas)
-- [Experienced operators](#experienced-operators)
+- [Future Works](#future-works)
+- [Unrepresented Operators](#unrepresented-operators)
   - [COMP](#comp)
     - [Object Components (3D objects for rendering)](#object-components-3d-objects-for-rendering)
     - [Panel Components (interactive 2D panels)](#panel-components-interactive-2d-panels)
@@ -27,563 +27,541 @@ Some studies using [TouchDesigner](https://derivative.ca).
 
 ## Works
 
-- 001: Flying Butterfly
+- [001: Flying Butterfly](https://github.com/shin-sforzando/studies-td/tree/main/01)
 
-## Ideas
+## Future Works
 
-- [ ] Calibration of multiple projectors
-- [ ] Slit Camera
-- [ ] Autonomous Drone
+- Calibration of multiple projectors
+- Slit Camera
+- Autonomous Drone
 
-## Experienced operators
+## Unrepresented Operators
 
 ### COMP
 
 #### Object Components (3D objects for rendering)
 
-- [ ] Ambient Light COMP
-- [ ] Blend COMP
-- [ ] Bone COMP
-- [x] Camera COMP
-- [ ] Camera Blend COMP
-- [ ] Environment Light COMP
-- [ ] Nvidia Flow Emitter COMP
-- [x] Geometry COMP
-- [ ] Handle COMP
-- [x] Light COMP
-- [ ] Null COMP
-- [ ] Shared Mem In COMP
-- [ ] Shared Mem Out COMP
-- [ ] FBX COMP
-- [ ] USD COMP
+- Ambient Light COMP
+- Blend COMP
+- Bone COMP
+- Camera Blend COMP
+- Environment Light COMP
+- Nvidia Flow Emitter COMP
+- Handle COMP
+- Null COMP
+- Shared Mem In COMP
+- Shared Mem Out COMP
+- FBX COMP
+- USD COMP
 
 #### Panel Components (interactive 2D panels)
 
-- [x] Button COMP
-- [ ] Container COMP
-- [ ] Field COMP
-- [ ] List COMP
-- [ ] OP Viewer COMP
-- [ ] Parameter COMP
-- [ ] Select COMP
-- [ ] Slider COMP
-- [ ] Table COMP
-- [ ] Widget COMP
+- Container COMP
+- Field COMP
+- List COMP
+- OP Viewer COMP
+- Parameter COMP
+- Select COMP
+- Slider COMP
+- Table COMP
+- Widget COMP
 
 #### Miscellaneous Components
 
-- [ ] Base COMP
-  - the Base COMP has no panel gadgets and no object gadgets. It is the most basic shell of a component and can be used when a new network is required.
-- [ ] Engine COMP
+- Engine COMP
   - the Engine COMP will run a .tox file (component) in a separate process.
-- [ ] Time COMP
+- Time COMP
   - the Time COMP contains a network of operators that can drive a Timeline, drive animations in Animation COMPs, or be used to drive any custom time-based system.
-- [ ] Animation COMP
+- Animation COMP
   - the Animation COMP is used to create keyframe animation data. Keyframed channels are stored inside the component and can be edited by scoping the Animation COMP in the Animation Editor.
-- [ ] Replicator COMP
+- Replicator COMP
   - the Replicator COMP creates a node for every row of a table, adding and deleting nodes ("replicants") as the table changes.
-- [ ] Window COMP
+- Window COMP
   - the Window COMP create a separate floating application window. This can be used for control panels or when outputting to multiple monitors.
 
 ### TOP
 
-- [ ] Add
-- [ ] Analyze
-- [ ] Anti Alias
-- [ ] Blob Track
-- [ ] Blur
-- [ ] Cache Select
-- [ ] Cache
-- [ ] Channel Mix
-- [ ] CHOP to
-- [ ] Chroma Key
-- [ ] Circle
-- [ ] Composite
-- [ ] Constant
-- [ ] Convolve
-- [ ] Corner Pin
-- [ ] CPlusPlus
-- [ ] Crop
-- [ ] Cross
-- [ ] Cube Map
-- [ ] Depth
-- [ ] Difference
-- [ ] DirectX In
-- [ ] DirectX Out
-- [ ] Displace
-- [ ] Edge
-- [ ] Emboss
-- [ ] Feedback
-- [ ] Fit
-- [ ] Flip
-- [ ] Function
-- [ ] GLSL Multi
-- [ ] GLSL
-- [ ] HSV Adjust
-- [ ] HSV to RGB
-- [ ] Import Select
-- [ ] In
-- [ ] Inside
-- [ ] Introduction To s Vid
-- [ ] Kinect Azure Select
-- [ ] Kinect Azure
-- [ ] Kinect
-- [ ] Layout
-- [ ] Leap Motion
-- [ ] Lens Distort
-- [ ] Level
-- [ ] Limit
-- [ ] Lookup
-- [ ] Luma Blur
-- [ ] Luma Level
-- [ ] Math
-- [ ] Matte
-- [ ] Mirror
-- [ ] Monochrome
-- [x] Movie File In
-- [x] Movie File Out
-- [ ] Multiply
-- [ ] Ncam
-- [ ] NDI In
-- [ ] NDI Out
-- [ ] Noise
-- [ ] Normal Map
-- [ ] Notch
-- [x] Null
-- [ ] Nvidia Background
-- [ ] Nvidia Denoise
-- [ ] Nvidia Flex
-- [ ] Nvidia Flow
-- [ ] Oculus Rift
-- [ ] OP Viewer
-- [ ] OpenColorIO
-- [ ] OpenVR
-- [ ] Ouster Select
-- [ ] Ouster
-- [x] Out
-- [ ] Outside
-- [ ] Over
-- [ ] Pack
-- [ ] Photoshop In
-- [ ] Point File In
-- [ ] Point File Select
-- [ ] Point Transform
-- [ ] PreFilter Map
-- [ ] Projection
-- [ ] Ramp
-- [ ] RealSense
-- [ ] Rectangle
-- [ ] Remap
-- [ ] Render Pass
-- [ ] Render Select
-- [x] Render
-- [ ] Reorder
-- [ ] Resolution
-- [ ] RGB Key
-- [ ] RGB to HSV
-- [ ] Scalable Display
-- [ ] Screen Grab
-- [ ] Screen
-- [ ] Script
-- [ ] Select
-- [ ] Shared Mem In
-- [ ] Shared Mem Out
-- [ ] Slope
-- [ ] Spectrum
-- [ ] SSAO
-- [ ] Stype
-- [ ] Substance Select
-- [ ] Substance
-- [ ] Subtract
-- [ ] SVG
-- [ ] Switch
-- [ ] Syphon Spout In
-- [ ] Syphon Spout Out
-- [ ] Text
-- [ ] Texture 3D
-- [ ] Texture Sampling Parameters
-- [ ] Threshold
-- [ ] Tile
-- [ ] Time Machine
-- [ ] TOP
-- [ ] TOP Viewer
-- [ ] Touch In
-- [ ] Touch Out
-- [ ] Transform
-- [ ] Under
-- [ ] Video Device In
-- [ ] Video Device Out
-- [ ] Video Stream In
-- [ ] Video Stream Out
-- [ ] Vioso
-- [ ] Web Render
-- [ ] ZED
+- Add
+- Analyze
+- Anti Alias
+- Blob Track
+- Blur
+- Cache Select
+- Cache
+- Channel Mix
+- CHOP to
+- Chroma Key
+- Circle
+- Composite
+- Constant
+- Convolve
+- Corner Pin
+- CPlusPlus
+- Crop
+- Cross
+- Cube Map
+- Depth
+- Difference
+- DirectX In
+- DirectX Out
+- Displace
+- Edge
+- Emboss
+- Feedback
+- Fit
+- Flip
+- Function
+- GLSL Multi
+- GLSL
+- HSV Adjust
+- HSV to RGB
+- Import Select
+- In
+- Inside
+- Introduction To s Vid
+- Kinect Azure Select
+- Kinect Azure
+- Kinect
+- Layout
+- Leap Motion
+- Lens Distort
+- Level
+- Limit
+- Lookup
+- Luma Blur
+- Luma Level
+- Math
+- Matte
+- Mirror
+- Monochrome
+- Multiply
+- Ncam
+- NDI In
+- NDI Out
+- Noise
+- Normal Map
+- Notch
+- Nvidia Background
+- Nvidia Denoise
+- Nvidia Flex
+- Nvidia Flow
+- Oculus Rift
+- OP Viewer
+- OpenColorIO
+- OpenVR
+- Ouster Select
+- Ouster
+- Outside
+- Over
+- Pack
+- Photoshop In
+- Point File In
+- Point File Select
+- Point Transform
+- PreFilter Map
+- Projection
+- Ramp
+- RealSense
+- Rectangle
+- Remap
+- Render Pass
+- Render Select
+- Reorder
+- Resolution
+- RGB Key
+- RGB to HSV
+- Scalable Display
+- Screen Grab
+- Screen
+- Script
+- Select
+- Shared Mem In
+- Shared Mem Out
+- Slope
+- Spectrum
+- SSAO
+- Stype
+- Substance Select
+- Substance
+- Subtract
+- SVG
+- Switch
+- Syphon Spout In
+- Syphon Spout Out
+- Text
+- Texture 3D
+- Texture Sampling Parameters
+- Threshold
+- Tile
+- Time Machine
+- TOP
+- TOP Viewer
+- Touch In
+- Touch Out
+- Transform
+- Under
+- Video Device In
+- Video Device Out
+- Video Stream In
+- Video Stream Out
+- Vioso
+- Web Render
+- ZED
 
 ### CHOP
 
-- [ ] Ableton Link
-- [ ] Analyze
-- [ ] Angle
-- [ ] Attribute
-- [ ] Audio Band EQ
-- [ ] Audio Device In
-- [ ] Audio Device Out
-- [ ] Audio Dynamics
-- [ ] Audio File In
-- [ ] Audio File Out
-- [ ] Audio Filter
-- [ ] Audio Movie
-- [ ] Audio NDI
-- [ ] Audio Oscillator
-- [ ] Audio Para EQ
-- [ ] Audio Play
-- [ ] Audio Render
-- [ ] Audio Spectrum
-- [ ] Audio Stream In
-- [ ] Audio Stream Out
-- [ ] Beat
-- [ ] Bind
-- [ ] BlackTrax
-- [ ] Blend
-- [ ] Blob Track
-- [ ] Bullet Solver
-- [ ] Clip Blender
-- [ ] Clip
-- [ ] Clock
-- [ ] Composite
-- [ ] Constant
-- [ ] Copy
-- [x] Count
-- [ ] CPlusPlus
-- [ ] Cross
-- [ ] Cycle
-- [ ] DAT to
-- [ ] Delay
-- [ ] Delete
-- [ ] DMX In
-- [ ] DMX Out
-- [ ] Envelope
-- [ ] EtherDream
-- [ ] Event
-- [ ] Expression
-- [ ] Extend
-- [ ] Face Track
-- [ ] Fan
-- [ ] Feedback
-- [ ] File In
-- [ ] File Out
-- [ ] Filter
-- [ ] FreeD
-- [ ] Function
-- [ ] Gesture
-- [ ] Handle
-- [ ] Helios DAC
-- [ ] Hog
-- [ ] Hokuyo
-- [ ] Hold
-- [ ] Import Select
-- [ ] In
-- [x] Info
-- [ ] Interpolate
-- [ ] Introduction To s Vid
-- [ ] Inverse Curve
-- [ ] Inverse Kin
-- [ ] Join
-- [ ] Joystick
-- [ ] Keyboard In
-- [ ] Keyframe
-- [ ] Kinect Azure
-- [ ] Kinect
-- [ ] Lag
-- [ ] Laser
-- [ ] Leap Motion
-- [ ] Leuze ROD4
-- [x] LFO
-- [ ] Limit
-- [ ] Logic
-- [ ] Lookup
-- [ ] LTC In
-- [ ] LTC Out
-- [x] Math
-- [ ] Merge
-- [ ] MIDI In
-- [ ] MIDI In Map
-- [ ] MIDI Out
-- [ ] Mouse In
-- [ ] Mouse Out
-- [ ] NatNet In
-- [ ] Ncam
-- [ ] Noise
-- [x] Null
-- [ ] Object
-- [ ] Oculus Audio
-- [ ] Oculus Rift
-- [ ] OpenVR
-- [ ] OSC In
-- [ ] OSC Out
-- [ ] Out
-- [ ] Override
-- [ ] Panel
-- [ ] Pangolin
-- [ ] Parameter
-- [ ] Pattern
-- [ ] Perform
-- [ ] Phaser
-- [ ] Pipe In
-- [ ] Pipe Out
-- [ ] PosiStageNet
-- [ ] Pulse
-- [ ] RealSense
-- [ ] Record
-- [ ] Rename
-- [ ] Render Pick
-- [ ] Reorder
-- [ ] Replace
-- [ ] Resample
-- [ ] S Curve
-- [ ] Scan
-- [ ] Script
-- [ ] Select
-- [ ] Sequencer
-- [ ] Serial
-- [ ] Shared Mem In
-- [ ] Shared Mem Out
-- [ ] Shift
-- [ ] Shuffle
-- [ ] Slope
-- [ ] SOP to
-- [ ] Sort
-- [ ] Speed
-- [ ] Splice
-- [ ] Spring
-- [ ] Stretch
-- [ ] Stype
-- [ ] Switch
-- [ ] Sync In
-- [ ] Sync Out
-- [ ] Tablet
-- [ ] Time Slice
-- [ ] Timeline
-- [ ] Timer
-- [ ] TOP to
-- [ ] Touch In
-- [ ] Touch Out
-- [ ] Trail
-- [ ] Transform
-- [ ] Transform XYZ
-- [ ] Trigger
-- [ ] Trim
-- [ ] Warp
-- [ ] Wave
-- [ ] WrnchAI
-- [ ] ZED
+- Ableton Link
+- Analyze
+- Angle
+- Attribute
+- Audio Band EQ
+- Audio Device In
+- Audio Device Out
+- Audio Dynamics
+- Audio File In
+- Audio File Out
+- Audio Filter
+- Audio Movie
+- Audio NDI
+- Audio Oscillator
+- Audio Para EQ
+- Audio Play
+- Audio Render
+- Audio Spectrum
+- Audio Stream In
+- Audio Stream Out
+- Beat
+- Bind
+- BlackTrax
+- Blend
+- Blob Track
+- Bullet Solver
+- Clip Blender
+- Clip
+- Clock
+- Composite
+- Constant
+- Copy
+- CPlusPlus
+- Cross
+- Cycle
+- DAT to
+- Delay
+- Delete
+- DMX In
+- DMX Out
+- Envelope
+- EtherDream
+- Event
+- Expression
+- Extend
+- Face Track
+- Fan
+- Feedback
+- File In
+- File Out
+- Filter
+- FreeD
+- Function
+- Gesture
+- Handle
+- Helios DAC
+- Hog
+- Hokuyo
+- Hold
+- Import Select
+- In
+- Interpolate
+- Introduction To s Vid
+- Inverse Curve
+- Inverse Kin
+- Join
+- Joystick
+- Keyboard In
+- Keyframe
+- Kinect Azure
+- Kinect
+- Lag
+- Laser
+- Leap Motion
+- Leuze ROD4
+- Limit
+- Logic
+- Lookup
+- LTC In
+- LTC Out
+- Merge
+- MIDI In
+- MIDI In Map
+- MIDI Out
+- Mouse In
+- Mouse Out
+- NatNet In
+- Ncam
+- Noise
+- Object
+- Oculus Audio
+- Oculus Rift
+- OpenVR
+- OSC In
+- OSC Out
+- Out
+- Override
+- Panel
+- Pangolin
+- Parameter
+- Pattern
+- Perform
+- Phaser
+- Pipe In
+- Pipe Out
+- PosiStageNet
+- Pulse
+- RealSense
+- Record
+- Rename
+- Render Pick
+- Reorder
+- Replace
+- Resample
+- S Curve
+- Scan
+- Script
+- Select
+- Sequencer
+- Serial
+- Shared Mem In
+- Shared Mem Out
+- Shift
+- Shuffle
+- Slope
+- SOP to
+- Sort
+- Speed
+- Splice
+- Spring
+- Stretch
+- Stype
+- Switch
+- Sync In
+- Sync Out
+- Tablet
+- Time Slice
+- Timeline
+- Timer
+- TOP to
+- Touch In
+- Touch Out
+- Trail
+- Transform
+- Transform XYZ
+- Trigger
+- Trim
+- Warp
+- Wave
+- WrnchAI
+- ZED
 
 ### SOP
 
-- [ ] Add
-- [ ] Alembic
-- [ ] Align
-- [ ] Arm
-- [ ] Attribute Create
-- [ ] Attribute
-- [ ] Basis
-- [ ] Blend
-- [ ] Bone Group
-- [ ] Boolean
-- [ ] Box
-- [ ] Bridge
-- [ ] Cache
-- [ ] Cap
-- [ ] Capture Region
-- [ ] Capture
-- [ ] Carve
-- [ ] CHOP to
-- [ ] Circle
-- [ ] Clay
-- [ ] Clip
-- [ ] Convert
-- [ ] Copy
-- [ ] CPlusPlus
-- [ ] Creep
-- [ ] Curveclay
-- [ ] Curvesect
-- [ ] DAT to
-- [ ] Deform
-- [ ] Delete
-- [ ] Divide
-- [ ] Extrude
-- [ ] Face Track
-- [ ] Facet
-- [ ] File In
-- [ ] Fillet
-- [ ] Fit
-- [ ] Font
-- [ ] Force
-- [ ] Fractal
-- [ ] Grid
-- [ ] Group
-- [ ] Hole
-- [ ] Import Select
-- [ ] In
-- [ ] Introduction To s Vid
-- [ ] Inverse Curve
-- [ ] Iso Surface
-- [ ] Join
-- [ ] Joint
-- [ ] Kinect
-- [ ] Lattice
-- [ ] Limit
-- [ ] Line
-- [ ] Line Thick
-- [ ] LOD
-- [ ] LSystem
-- [ ] Magnet
-- [ ] Material
-- [ ] Merge
-- [ ] Metaball
-- [ ] Model
-- [ ] Noise
-- [ ] Null
-- [ ] Object Merge
-- [ ] Oculus Rift
-- [ ] OpenVR
-- [ ] Out
-- [ ] Particle
-- [ ] Point
-- [ ] Polyloft
-- [ ] Polypatch
-- [ ] Polyreduce
-- [ ] Polyspline
-- [ ] Polystitch
-- [ ] Primitive
-- [ ] Profile
-- [ ] Project
-- [ ] Rails
-- [ ] Raster
-- [ ] Ray
-- [ ] Rectangle
-- [ ] Refine
-- [ ] Resample
-- [ ] Revolve
-- [ ] Script
-- [ ] Select
-- [ ] Sequence Blend
-- [ ] Skin
-- [ ] Sort
-- [ ] Sphere
-- [ ] Spring
-- [ ] Sprinkle
-- [ ] Sprite
-- [ ] Stitch
-- [ ] Subdivide
-- [ ] Superquad
-- [ ] Surfsect
-- [ ] Sweep
-- [ ] Switch
-- [ ] Text
-- [x] Texture
-- [ ] Torus
-- [x] Trace
-- [ ] Trail
-- [ ] Transform
-- [ ] Trim
-- [ ] Tristrip
-- [ ] Tube
-- [x] Twist
-- [ ] Vertex
-- [ ] Wireframe
-- [ ] ZED
+- Add
+- Alembic
+- Align
+- Arm
+- Attribute Create
+- Attribute
+- Basis
+- Blend
+- Bone Group
+- Boolean
+- Box
+- Bridge
+- Cache
+- Cap
+- Capture Region
+- Capture
+- Carve
+- CHOP to
+- Circle
+- Clay
+- Clip
+- Convert
+- Copy
+- CPlusPlus
+- Creep
+- Curveclay
+- Curvesect
+- DAT to
+- Deform
+- Delete
+- Divide
+- Extrude
+- Face Track
+- Facet
+- File In
+- Fillet
+- Fit
+- Font
+- Force
+- Fractal
+- Grid
+- Group
+- Hole
+- Import Select
+- In
+- Introduction To s Vid
+- Inverse Curve
+- Iso Surface
+- Join
+- Joint
+- Kinect
+- Lattice
+- Limit
+- Line
+- Line Thick
+- LOD
+- LSystem
+- Magnet
+- Material
+- Merge
+- Metaball
+- Model
+- Noise
+- Null
+- Object Merge
+- Oculus Rift
+- OpenVR
+- Out
+- Particle
+- Point
+- Polyloft
+- Polypatch
+- Polyreduce
+- Polyspline
+- Polystitch
+- Primitive
+- Profile
+- Project
+- Rails
+- Raster
+- Ray
+- Rectangle
+- Refine
+- Resample
+- Revolve
+- Script
+- Select
+- Sequence Blend
+- Skin
+- Sort
+- Sphere
+- Spring
+- Sprinkle
+- Sprite
+- Stitch
+- Subdivide
+- Superquad
+- Surfsect
+- Sweep
+- Switch
+- Text
+- Torus
+- Trail
+- Transform
+- Trim
+- Tristrip
+- Tube
+- Vertex
+- Wireframe
+- ZED
 
 ### MAT
 
-- [ ] Constant
-- [ ] Depth
-- [ ] GLSL
-- [ ] In
-- [ ] Line
-- [ ] MAT
-- [ ] MAT Common Page
-- [ ] MAT Generator Common Page
-- [ ] Null
-- [ ] Out
-- [ ] PBR
-- [x] Phong
-- [ ] Point Sprite
-- [ ] Select
-- [ ] Switch
-- [ ] Texture Sampling Parameters
-- [ ] Wireframe
+- Constant
+- Depth
+- GLSL
+- In
+- Line
+- MAT
+- MAT Common Page
+- MAT Generator Common Page
+- Null
+- Out
+- PBR
+- Point Sprite
+- Select
+- Switch
+- Texture Sampling Parameters
+- Wireframe
 
 ### DAT
 
-- [ ] Art-Net
-- [ ] CHOP Execute
-- [ ] CHOP to
-- [ ] Clip
-- [ ] Convert
-- [ ] CPlusPlus
-- [ ] DAT
-- [ ] Execute
-- [ ] DAT Export
-- [ ] Error
-- [ ] EtherDream
-- [ ] Evaluate
-- [ ] Examine
-- [ ] Execute
-- [ ] FIFO
-- [ ] File In
-- [ ] File Out
-- [ ] Folder
-- [ ] In
-- [ ] Indices
-- [ ] Info
-- [ ] Insert
-- [ ] JSON
-- [ ] Keyboard In
-- [ ] Lookup
-- [ ] Merge
-- [ ] MIDI Event
-- [ ] MIDI In
-- [ ] Monitors
-- [ ] MQTT Client
-- [ ] Multi Touch In
-- [ ] NDI
-- [ ] Null
-- [ ] OP Execute
-- [ ] OP Find
-- [ ] OSC In
-- [ ] OSC Out
-- [ ] Out
-- [ ] Panel Execute
-- [ ] Parameter
-- [ ] Parameter Execute
-- [ ] Perform
-- [ ] Render Pick
-- [ ] Reorder
-- [ ] Script
-- [x] Select
-- [ ] Serial
-- [ ] SocketIO
-- [ ] SOP to
-- [ ] Sort
-- [ ] Substitute
-- [ ] Switch
-- [x] Table
-- [ ] TCP/IP
-- [ ] Text
-- [ ] Touch In
-- [ ] Touch Out
-- [ ] Transpose
-- [ ] TUIO In
-- [ ] UDP In
-- [ ] UDP Out
-- [ ] UDT In
-- [ ] UDT Out
-- [ ] Web Client
-- [ ] Web
-- [ ] Web Server
-- [ ] WebSocket
-- [ ] XML
+- Art-Net
+- CHOP Execute
+- CHOP to
+- Clip
+- Convert
+- CPlusPlus
+- DAT
+- Execute
+- DAT Export
+- Error
+- EtherDream
+- Evaluate
+- Examine
+- Execute
+- FIFO
+- File In
+- File Out
+- Folder
+- In
+- Indices
+- Info
+- Insert
+- JSON
+- Keyboard In
+- Lookup
+- Merge
+- MIDI Event
+- MIDI In
+- Monitors
+- MQTT Client
+- Multi Touch In
+- NDI
+- Null
+- OP Execute
+- OP Find
+- OSC In
+- OSC Out
+- Out
+- Panel Execute
+- Parameter
+- Parameter Execute
+- Perform
+- Render Pick
+- Reorder
+- Script
+- Serial
+- SocketIO
+- SOP to
+- Sort
+- Substitute
+- Switch
+- TCP/IP
+- Text
+- Touch In
+- Touch Out
+- Transpose
+- TUIO In
+- UDP In
+- UDP Out
+- UDT In
+- UDT Out
+- Web Client
+- Web
+- Web Server
+- WebSocket
+- XML
 
 ## References
 
